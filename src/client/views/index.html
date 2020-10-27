@@ -3,14 +3,17 @@
     <head>
         <meta charset="utf-8">
         <title>Test</title>
-       
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
     </head>
 
     <body>
 
+       
         <header>
             <div class="">
-                Logo
+                <h1>
+                My Travels
+               </h1>
             </div>
             <div class="">
                 navigation
@@ -18,34 +21,39 @@
         </header>
 
         <main>
+           
             <section>
                 <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <label id="label-going-to">Going to:</label>
                     <input id="city" type="text" name="input" value="" placeholder="City">
                     <input id="state" type="text" name="input" value="" placeholder="State">
-                    <input id="start-date" type="text" name="input" value="" placeholder="YYYY-MM-DD">
-                    <input id="end-date" type="text" name="input" value="" placeholder="YYYY-MM-DD">
-                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+                    <input id="start-date" type="text" name="input" value="" placeholder="Check-in (YYYY-MM-DD)">
+                    <input id="end-date" type="text" name="input" value="" placeholder="Check-out (YYYY-MM-DD)">
+                    <input id = "submit-button"type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
                 </form>
             <section>
 
-            <section>
-                <strong>Weather:</strong>
+            <section id= section2>
+                <h3 id="section2-header"><strong><em><u>Some info regarding your trip:</u></em></strong></h3>
+                <p>The weather will be:</p>
                 <div id="weather"></div>
-                <strong>Length of trip:</strong>
+                <p>The temperature will be:</p>
+                <div id="temperature"></div>
+                <p>The Length of your trip:</p>
                 <div id="length"></div>
-                <strong>lat:</strong>
+                <p>The coordinates of your destination:</p>
+                <p>lat:</p>
                 <div id="lat"></div>
-                <strong>lon:</strong>
+                <p>lon:</p>
                 <div id="lon"></div>
-                <strong>img:</strong>
-                <div id="loadImage-wrap">
-                    <img id="loadImage" />
-                </div>
+                <p>An image of your destination:</p>
+                <image id= "load-image">
+                
             </section>
         </main>
 
         <footer>
-            <p>This is a footer</p>
+            <p>All rights reserved</p>
         </footer>
 
         <script>
