@@ -38,17 +38,6 @@ app.get('/test', function (req, res) {
     res.json(mockAPIResponse);
 })
 
-/*
-function findDate(startDate, endDate){
-  console.log(startDate)
-  console.log(endDate)
-  let nextDay = new Date(startDate)
-  nextDay.setDate(nextDay.getDate()+1);
-  console.log(nextDay)
-  let nextDayFormat = nextDay.getFullYear()+ "-" + (nextDay.getMonth()+1) + "-" + nextDay.getDate() ;
-  console.log(nextDayFormat)
-}
-*/
 
 const getWeather = async (req,r)=>{
 
