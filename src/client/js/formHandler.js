@@ -42,7 +42,8 @@ function handleSubmit(event) {
         })
         .then(res => res.json())
         .then(function(res) {
-            document.getElementById('weather').innerHTML = res.data[numUntilTrip].temp;
+            document.getElementById('temperature').innerHTML = res.data[numUntilTrip].temp;
+            document.getElementById('weather').innerHTML=  res.data[numUntilTrip].weather.description;
             
         })
 
@@ -53,7 +54,12 @@ function handleSubmit(event) {
     }
 
 
-    document.getElementById('length').innerHTML = lengthOfTrip+" days";
+    if (lengthOfTrip ===1){
+        document.getElementById('length').innerHTML = lengthOfTrip+" day";
+    }
+    else{
+        document.getElementById('length').innerHTML = lengthOfTrip+" days";
+    }
     
     fetch('/img',{
         method: 'POST', 
@@ -65,8 +71,7 @@ function handleSubmit(event) {
     })
     .then(res => res.json())
     .then(function(res) {
-        document.getElementById("loadImage").src = res.hits[0].webformatURL;
-        
+        document.getElementById("load-image").src= res.hits[0].webformatURL;
     })
     
     
