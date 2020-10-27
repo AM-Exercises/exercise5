@@ -18,7 +18,13 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: "babel-loader"
             },
+            { 
+                test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader"
+            },
             {
+                test: /\.(png|jpg|gif)$/,loader: 'file-loader'
+            },
+              {
                 test: /\.scss$/,
                 use: [ MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader' ]
             }
