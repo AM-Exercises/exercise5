@@ -1,14 +1,39 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(/src/client/media/ShortBaby-Mg2w.ttf);
+  }
+
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: blanchedalmond;
+    background-image: url(/src/client/media/travel.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: myFirstFont;
+   
 }
+
 
 main {
     flex: 2;
 }
 
 section {
-    max-width: 800px;
+    max-width: 600px;
     margin: 50px auto;
+   
+    
+}
+
+#section2{
+    border: 5px solid #545454;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#section2-header{
+    text-align: center;
 }
