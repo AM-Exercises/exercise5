@@ -1,19 +1,13 @@
 
-
-@font-face {
-    font-family: myFirstFont;
-    src: url('./media/ShortBaby-Mg2w.ttf')
-  }
-
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     background-color: blanchedalmond;
-    background-image: url('./media/travel.png');
+    background-image: url("https://images.designtrends.com/wp-content/uploads/2016/04/04070921/Travel-Wallpaper-Background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: myFirstFont;
+    font-family: 'Fira Sans', sans-serif;
    
 }
 
