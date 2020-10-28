@@ -18,13 +18,11 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: "babel-loader"
             },
+            
             {
                 test: /\.scss$/,
                 use: [ MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader' ]
             }
-
-            } 
-            
         ]
     },
     plugins: [
@@ -34,5 +32,6 @@ module.exports = {
         }),
         new WorkboxPlugin.GenerateSW(),
         new MiniCssExtractPlugin({filename: '[name].css'})
+        
     ]
 }
