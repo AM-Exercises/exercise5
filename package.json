@@ -19,8 +19,10 @@
     "dateformat": "^3.0.3",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "file": "^0.2.2",
     "file-loader": "^6.1.1",
     "node-fetch": "^2.6.1",
+    "url-loader": "^4.1.1",
     "webpack": "^4.35.3",
     "webpack-cli": "^3.3.5"
   },
@@ -29,6 +31,7 @@
     "@babel/preset-env": "^7.5.4",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
     "css-loader": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^26.6.1",
