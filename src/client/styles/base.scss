@@ -1,7 +1,8 @@
 
+
 @font-face {
     font-family: myFirstFont;
-    src: url(/src/client/media/ShortBaby-Mg2w.ttf);
+    src: url('./media/ShortBaby-Mg2w.ttf')
   }
 
 body {
@@ -9,7 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: blanchedalmond;
-    background-image: url(/src/client/media/travel.png);
+    background-image: url('./media/travel.png');
     background-size: cover;
     background-repeat: no-repeat;
     font-family: myFirstFont;
