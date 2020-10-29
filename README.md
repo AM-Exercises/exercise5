@@ -15,6 +15,7 @@ This proejct is a travel application. It is very JavaScript heavy, with clean HT
 
 1) If you didn't run build-dev, do 1-3 steps from above.
 2) Write "npm build-prod"
+3) Write "npm start"
 
 #### test
 
