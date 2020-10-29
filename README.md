@@ -1,6 +1,6 @@
 ## Travel application
 
-This proejct is a travel application. It is very JavaScript heavy, with clean and appealing HTML/CSS. It targets the DOM, works with objects, and retrieve data from 3 APIs. Finally, this is done in a Webpack environment, using an express server, wrapped up with service workers and tested with jest.
+This proejct is a travel application. It is very JavaScript heavy, with clean HTML/CSS. I was targeting the DOM, working with objects, and retrieving data from 3 APIs. Finally, this is done in a Webpack environment, using an express server, wrapped up with service workers and tested with jest.
 
 ### Instructions
 
