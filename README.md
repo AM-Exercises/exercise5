@@ -30,14 +30,13 @@ and on the bottom of each file uncheck the bottom line and check the above line:
       //When running test - uncheck the bottom line and check the above line
        module.exports = checkForName;
 
- (This is just for testing the client side. If you want to run build-dev or build-prod, change the lines back).
-
+ and save the files. 
 2) Write "npm run test"- 2 tests should pass.
 
 
 ##### For testing the server side:
 
-1) Change back the lines from before.
+1) Change back the lines from before and save the files.
 2) Open a second terminal
 3) On the first terminal write "npm run build-prod" following "npm start"
 4) On the second terminal- cd the project and write "npm run test"
