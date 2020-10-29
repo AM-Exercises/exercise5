@@ -31,6 +31,7 @@ and on the bottom of each file uncheck the bottom line and check the above line:
        module.exports = checkForName;
 
  and save the files. 
+ 
 2) Write "npm run test"- 2 tests should pass.
 
 
