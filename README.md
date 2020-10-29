@@ -37,10 +37,11 @@ and on the bottom of each file uncheck the bottom line and check the above line:
 
 ##### For testing the server side:
 
-1) Open a second terminal
-2) On the first terminal write "npm run build-dev"
-3) On the second terminal- cd the project and write "npm run test"
-4) The server test should pass.
+1) Change back the lines from before.
+2) Open a second terminal
+3) On the first terminal write "npm run build-prod" following "npm start"
+4) On the second terminal- cd the project and write "npm run test"
+5) The server test should pass.
 
 
 
