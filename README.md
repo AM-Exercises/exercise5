@@ -22,26 +22,15 @@ This proejct is a travel application. It is very JavaScript heavy, with clean HT
 
 ##### For testing the client side:
 
-1) Go to src/client/js/formHandler.js and src/client/js/nameChecker.js on your favorite editor
-and on the bottom of each file uncheck the bottom line and check the above line:
-
-      //export { checkForName }
-
-      //When running test - uncheck the bottom line and check the above line
-       module.exports = checkForName;
-
- and save the files. 
- 
-2) run "npm run test"- 2 tests should pass.
+run "npm run test"- 2 tests should pass.
 
 
 ##### For testing the server side:
 
-1) Change back the lines from before and save the files.
-2) Open a second terminal and cd the project.
-3) On the first terminal run "npm run build-prod" and "npm start"
-4) On the second terminal run "npm run test"
-5) The server test should pass.
+1) Open a second terminal and cd the project.
+2) On the first terminal run "npm run build-prod" and "npm start"
+3) On the second terminal run "npm run test"
+4) The server test should pass.
 
 
 
