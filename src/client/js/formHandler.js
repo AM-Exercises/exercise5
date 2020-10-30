@@ -93,5 +93,3 @@ function handleSubmit(event) {
 }
 
 export { handleSubmit }
-//When running test - uncheck the bottom line and check the above line
-//module.exports = handleSubmit;
