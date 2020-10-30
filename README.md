@@ -20,17 +20,10 @@ This proejct is a travel application. It is very JavaScript heavy, with clean HT
 
 #### test
 
-##### For testing the client side:
-
-run "npm run test"- 2 tests should pass.
-
-
-##### For testing the server side:
-
 1) Open a second terminal and cd the project.
 2) On the first terminal run "npm run build-prod" and "npm start"
 3) On the second terminal run "npm run test"
-4) The server test should pass.
+4) 3 testes should pass.
 
 
 
